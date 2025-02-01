@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh
+}
+
+.box {
+  border: 5px solid rgb(13, 8, 8);
+  height: 80vw;
+  width: 80vw;
+  border-radius:1rem;
+}
+
+.row{
+
+    height: 12.5%;
+    background-color: rgba(172, 255, 47, 0.351);
+    display: flex;
+}
+
+.row:nth-child(odd){
+    background-color: rgba(127, 255, 212, 0.347);
+}
+
+.col{
+    border: 2px solid rgba(11, 11, 11, 0.359);
+    height: 100%;
+    width: 12.5%;
+}
+
+.col:nth-child(odd){
+    background-color: rgba(0, 255, 255, 0.159);
+}
